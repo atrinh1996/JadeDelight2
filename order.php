@@ -62,13 +62,6 @@
                 }
             ?>
 
-
-            <!-- Create the time until food is ready as a string -->
-            <script language="javascript">
-                // var waitTime = <?php echo $readyTime?>;
-                // var timeDisplay = formatTime(waitTime);
-            </script>
-
             <!-- Display Items ordered by writing the html here -->
             <?php
                 $quanStr = "<div class='cookie'><ul id='order'>";
