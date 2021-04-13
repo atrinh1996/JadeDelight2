@@ -73,7 +73,6 @@
             global $menuItems;
 
             $s = "";
-            $i = 0;
             // Check the menuItems array
             foreach($menuItems as $item=>$price) {
                 $s .= "<tr><td>";
@@ -81,8 +80,6 @@
                 $s .= "</td><td>" . $item . "</td>";
                 $s .= "<td> $ " . $price . "</td>";
                 $s .= "<td>$<input type='text' name='cost[]'/></td></tr>";
-
-                $i++;
             }
 
             return $s;
